@@ -1,0 +1,163 @@
+body{
+  font-family: "Montserrat";
+}
+mark{
+  background-color: #fff;
+}
+.container-fluid{
+  padding: 3% 15% 15%;
+}
+#title{
+  background-color: #f37121;
+}
+.timage{
+  width: 60%;
+  margin:10px;
+  right: 30%;
+  position: absolute;
+  transform: rotate(25deg);
+  background-color: #f37121;
+}
+#code{
+  color: #f37121;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+#meet{
+  text-align: left;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  font-weight:bolder;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding:0 15px;
+}
+.nav-link:hover{
+  color: #000;
+}
+.db{
+  margin:7% 3% 3% 0;
+}
+
+
+#features{
+  padding: 6% 10%;
+  background-color: #fff;
+  position: relative;
+}
+.fbox{
+  text-align: center;
+  padding: 5%;
+}
+p{
+  color: #8f8f8f;
+}
+h3{
+  font-family: "Montserrat-black";
+  font-weight: 900;
+}
+
+.icon{
+  color: #00adb5;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #f37121;
+}
+
+
+
+/* testimonials section*/
+
+
+#testimonials{
+  text-align: center;
+  background-color: #00adb5;
+  color: #fff;
+}
+h2{
+  font-family:'Montserrat-Black', sans-serif;
+  font-weight:bold;
+  font-size: 2.7rem;
+  line height: 1.3;
+}
+.dimage{
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+.carousel-item{
+  padding: 6% 15%;
+}
+
+/* press */
+
+
+#press{
+  background-color:#00adb5;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.pressimg{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+
+/* cta */
+
+#cta{
+  background-color: #f37121;
+  text-align: center;
+padding: 6% 15%;
+}
+.endt{
+  color: #fff;
+  font-family:"Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.quo{
+  color: #00adb5;
+}
+
+/* footer */
+
+#footer{
+  padding: 6% 15%;
+  text-align:center;
+}
+.sicons{
+margin: 20px 10px;
+}
+
+
+@media (max-width: 1024px) {
+  #title{
+    text-align: center;
+  }
+  .timage{
+    position: static;
+    align-content: center;
+  }
+}
